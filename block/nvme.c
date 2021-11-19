@@ -31,7 +31,7 @@
 #define NVME_SQ_ENTRY_BYTES 64
 #define NVME_CQ_ENTRY_BYTES 16
 #define NVME_QUEUE_SIZE 128
-#define NVME_DOORBELL_SIZE 4096
+#define _DOORBELL_SIZE 4096
 
 /*
  * We have to leave one slot empty as that is the full queue case where
